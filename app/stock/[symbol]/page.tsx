@@ -207,7 +207,7 @@ export default function StockPage() {
         <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent-growth selection:text-white overflow-x-hidden">
             <Header />
 
-            <main className="pt-24 pb-16 px-4 sm:px-6 relative min-h-screen">
+            <main className="pt-20 sm:pt-24 pb-14 sm:pb-16 px-3 sm:px-6 relative min-h-screen">
                 <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,#050505_100%)] z-0" />
 
                 <div className="max-w-7xl mx-auto relative z-10">

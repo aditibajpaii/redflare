@@ -111,11 +111,11 @@ export function StockOmnibar({ onSelectStock, isAnalyzing = false }: StockOmniba
                         disabled={isAnalyzing}
                         placeholder="Search NIFTY 50... Try 'high debt banks' or 'RELIANCE'"
                         className={cn(
-                            "w-full h-16 pl-14 pr-20 rounded-xl",
+                            "w-full h-14 sm:h-16 pl-12 sm:pl-14 pr-16 sm:pr-20 rounded-xl",
                             "bg-card/40 backdrop-blur-xl",
                             "border-b border-border/50",
                             "shadow-[0_4px_20px_-10px_rgba(0,0,0,0.5)]",
-                            "text-foreground text-lg placeholder:text-muted-foreground/50",
+                            "text-foreground text-base sm:text-lg placeholder:text-muted-foreground/50",
                             "focus:outline-none focus:bg-card/60 transition-all duration-200",
                             "disabled:opacity-50 disabled:cursor-not-allowed"
                         )}
@@ -137,8 +137,8 @@ export function StockOmnibar({ onSelectStock, isAnalyzing = false }: StockOmniba
                     )}
 
                     {!query && (
-                        <div className="absolute right-5 flex items-center gap-2 pointer-events-none">
-                            <span className="text-xs text-muted-foreground/50">Command Palette</span>
+                        <div className="absolute right-4 sm:right-5 flex items-center gap-2 pointer-events-none">
+                            <span className="hidden sm:inline text-xs text-muted-foreground/50">Command Palette</span>
                             <kbd className="px-2 py-1 text-[10px] font-mono text-muted-foreground bg-muted/20 rounded border border-border/30">
                                 ⌘K
                             </kbd>

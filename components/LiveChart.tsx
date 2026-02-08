@@ -101,11 +101,11 @@ export function LiveChart({ data, priceChange, symbol }: LiveChartProps) {
             animate={{ opacity: 1, y: 0 }}
             className="w-full max-w-4xl mx-auto"
         >
-            <div className="p-6 rounded-xl border bg-card/60 backdrop-blur-xl shadow-2xl">
+            <div className="p-4 sm:p-6 rounded-xl border bg-card/60 backdrop-blur-xl shadow-2xl">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
                     <div>
-                        <div className="flex items-center gap-3">
-                            <span className="font-mono text-2xl font-bold tracking-tight text-foreground">{symbol}</span>
+                        <div className="flex items-center gap-2 sm:gap-3">
+                            <span className="font-mono text-xl sm:text-2xl font-bold tracking-tight text-foreground">{symbol}</span>
                             <span className={cn(
                                 "px-2 py-0.5 rounded text-xs font-mono font-medium",
                                 isPositive ? "bg-accent-growth/10 text-accent-growth" : "bg-accent-decay/10 text-accent-decay"
@@ -118,13 +118,13 @@ export function LiveChart({ data, priceChange, symbol }: LiveChartProps) {
                         </div>
                     </div>
 
-                    <div className="flex p-0.5 rounded-lg bg-secondary/30 border border-border/50">
+                    <div className="flex flex-wrap p-0.5 rounded-lg bg-secondary/30 border border-border/50">
                         {["1D", "1W", "1M", "3M", "YTD", "1Y"].map((range) => (
                             <button
                                 key={range}
                                 onClick={() => setTimeRange(range)}
                                 className={cn(
-                                    "px-3 py-1 rounded-md text-[10px] font-medium transition-all",
+                                    "px-2.5 sm:px-3 py-1 rounded-md text-[10px] font-medium transition-all",
                                     timeRange === range
                                         ? "bg-muted text-foreground shadow-sm"
                                         : "text-muted-foreground hover:text-foreground"
@@ -136,7 +136,7 @@ export function LiveChart({ data, priceChange, symbol }: LiveChartProps) {
                     </div>
                 </div>
 
-                <div className="h-[400px] w-full">
+                <div className="h-[280px] sm:h-[400px] w-full">
                     <ResponsiveContainer width="100%" height="100%">
                         <ComposedChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
                             <defs>

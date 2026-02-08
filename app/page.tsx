@@ -24,7 +24,7 @@ export default function Page() {
         <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent-growth selection:text-white overflow-x-hidden">
             <Header />
 
-            <main className="pt-24 pb-16 px-4 sm:px-6 relative min-h-screen flex flex-col items-center justify-center">
+            <main className="pt-20 sm:pt-24 pb-20 md:pb-16 px-4 sm:px-6 relative min-h-screen flex flex-col items-center justify-center">
                 <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,#050505_100%)] z-0" />
 
                 <div className="max-w-7xl mx-auto relative z-10 w-full">
@@ -33,11 +33,11 @@ export default function Page() {
                         animate={{ opacity: 1, y: 0 }}
                         className="text-center mb-12"
                     >
-                        <h1 className="text-4xl sm:text-7xl font-medium tracking-tight mb-6 text-foreground">
+                        <h1 className="text-3xl sm:text-7xl font-medium tracking-tight mb-6 text-foreground">
                             Spot Institutional <br className="hidden sm:block" />
                             <span className="text-accent-growth">Anomalies</span>
                         </h1>
-                        <p className="text-lg text-muted-foreground max-w-xl mx-auto font-light leading-relaxed">
+                        <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto font-light leading-relaxed">
                             Real-time anomaly detection across NIFTY 50 & NASDAQ 100. <br />
                             Signal-to-noise ratio: <span className="text-foreground font-mono">99%</span>.
                         </p>
@@ -58,7 +58,7 @@ export default function Page() {
                 </div>
             </main>
 
-            <footer className="fixed bottom-0 left-0 right-0 py-4 text-center bg-background/60 backdrop-blur-xl border-t border-border/50">
+            <footer className="md:fixed bottom-0 left-0 right-0 py-3 sm:py-4 text-center bg-background/60 backdrop-blur-xl border-t border-border/50">
                 <p className="text-xs text-muted-foreground">
                     © 2026 Red Flare. All rights reserved.
                 </p>

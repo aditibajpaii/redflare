@@ -68,11 +68,11 @@ export function VerdictCard({
             "w-full max-w-4xl mx-auto rounded-xl border bg-card/60 backdrop-blur-xl overflow-hidden shadow-2xl transition-all duration-500",
             status.border
         )}>
-            <div className="p-6 border-b border-border/50">
+            <div className="p-4 sm:p-6 border-b border-border/50">
                 <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
                     <div>
-                        <div className="flex items-center gap-3 mb-1">
-                            <span className="font-mono text-3xl font-bold tracking-tight text-foreground">
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-1">
+                            <span className="font-mono text-2xl sm:text-3xl font-bold tracking-tight text-foreground break-all">
                                 {stockSymbol}
                             </span>
                             <div className={cn(
@@ -85,7 +85,7 @@ export function VerdictCard({
                         </div>
                         <h3 className="text-sm text-muted-foreground font-medium">{stockName}</h3>
 
-                        <div className="flex items-center gap-6 mt-4">
+                        <div className="grid grid-cols-3 gap-4 mt-4">
                             <div className="flex flex-col">
                                 <span className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">P/E Ratio</span>
                                 <span className="font-mono text-sm text-foreground">{pe ? pe.toFixed(1) : "N/A"}</span>
@@ -103,13 +103,13 @@ export function VerdictCard({
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-6">
-                        <div className="text-right">
+                    <div className="flex items-center justify-between md:justify-end gap-4 sm:gap-6">
+                        <div className="text-left sm:text-right">
                             <div className="text-[10px] text-muted-foreground uppercase tracking-widest mb-1">
                                 Risk Score
                             </div>
                             <div className={cn(
-                                "text-4xl font-mono font-bold tracking-tighter",
+                                "text-3xl sm:text-4xl font-mono font-bold tracking-tighter",
                                 isCritical ? "text-accent-decay" : isWarning ? "text-accent-warning" : "text-accent-growth"
                             )}>
                                 {riskScore.toFixed(1)}<span className="text-lg text-muted-foreground/50">/10</span>
@@ -130,7 +130,7 @@ export function VerdictCard({
                 </div>
             </div>
 
-            <div className="p-6">
+            <div className="p-4 sm:p-6">
                 {divergences.length > 0 && (
                     <div className="mb-6 flex flex-wrap gap-2">
                         {divergences.map((d, i) => (

@@ -50,7 +50,7 @@ export function Logo({ className }: { className?: string }) {
                 </svg>
             </div>
             <div>
-                <span className="font-pixel text-xl tracking-wide text-foreground group-hover:text-brand-algolia transition-colors">
+                <span className="font-pixel text-lg sm:text-xl tracking-wide text-foreground group-hover:text-brand-algolia transition-colors">
                     RED_FLARE
                 </span>
             </div>

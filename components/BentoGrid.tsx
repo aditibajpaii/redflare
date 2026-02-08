@@ -29,9 +29,9 @@ export function BentoGrid() {
     const { topGainers, topLosers, mostActive } = marketData
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-5xl mx-auto h-[400px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-5xl mx-auto md:h-[400px]">
             <BentoCard title="Market Heartbeat" icon={ActivityIcon} className="md:col-span-2">
-                <div className="grid grid-cols-3 gap-4 h-full">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 h-full">
                     <div className="flex flex-col justify-between p-3 bg-secondary/30 rounded-lg border border-border/30">
                         <div>
                             <div className="text-xs text-muted-foreground">NIFTY 50</div>
@@ -105,7 +105,7 @@ export function BentoGrid() {
             </BentoCard>
 
             <BentoCard title="Top Losers" icon={ZapIcon} className="md:col-span-2">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {topLosers.slice(0, 2).map((item) => (
                         <div key={item.symbol} className="flex items-start justify-between p-3 bg-secondary/30 rounded-lg border border-border/30">
                             <div>
