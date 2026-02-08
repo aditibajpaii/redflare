@@ -49,3 +49,4 @@ git-commits.sh
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+data/design.json
