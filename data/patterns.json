@@ -1,0 +1,502 @@
+[
+    {
+        "id": "price_up_insider_sell",
+        "name": "Price Up + Insider Selling",
+        "description": "Stock price rising while insiders consistently sell shares",
+        "severity": "high",
+        "indicators": [
+            "Price momentum positive",
+            "Insider selling > 3 transactions in 30 days"
+        ]
+    },
+    {
+        "id": "price_down_insider_buy",
+        "name": "Price Down + Insider Buying",
+        "description": "Stock price falling while insiders accumulate shares",
+        "severity": "low",
+        "indicators": [
+            "Price momentum negative",
+            "Insider buying > 3 transactions in 30 days"
+        ]
+    },
+    {
+        "id": "high_pe_negative_news",
+        "name": "High PE + Negative Sentiment",
+        "description": "Stock trading at premium valuation despite negative news flow",
+        "severity": "medium",
+        "indicators": [
+            "PE ratio > sector average by 50%",
+            "News sentiment score < -0.5"
+        ]
+    },
+    {
+        "id": "debt_spike_price_stable",
+        "name": "Debt Spike + Stable Price",
+        "description": "Significant debt increase not reflected in stock price",
+        "severity": "high",
+        "indicators": [
+            "Debt/Equity increase > 25% YoY",
+            "Price change < 5%"
+        ]
+    },
+    {
+        "id": "revenue_miss_price_rise",
+        "name": "Revenue Miss + Price Rise",
+        "description": "Stock price rising despite missing revenue expectations",
+        "severity": "medium",
+        "indicators": [
+            "Revenue < analyst estimate by 10%",
+            "Price up > 5% post-results"
+        ]
+    },
+    {
+        "id": "volume_spike_no_news",
+        "name": "Volume Spike Without News",
+        "description": "Abnormal trading volume with no public announcements",
+        "severity": "high",
+        "indicators": [
+            "Volume > 5x 20-day average",
+            "No news in 48 hours"
+        ]
+    },
+    {
+        "id": "promoter_pledge_increase",
+        "name": "Promoter Pledge Increase",
+        "description": "Rising promoter share pledging suggesting financial stress",
+        "severity": "high",
+        "indicators": [
+            "Promoter pledge > 50%",
+            "Pledge increase > 10% QoQ"
+        ]
+    },
+    {
+        "id": "dividend_cut_price_stable",
+        "name": "Dividend Cut + Stable Price",
+        "description": "Dividend reduction not priced into the stock",
+        "severity": "medium",
+        "indicators": [
+            "Dividend cut > 25%",
+            "Price within 5% range"
+        ]
+    },
+    {
+        "id": "analyst_downgrade_ignored",
+        "name": "Analyst Downgrade Ignored",
+        "description": "Multiple analyst downgrades with no price reaction",
+        "severity": "medium",
+        "indicators": [
+            "> 2 downgrades in 30 days",
+            "Price stable or rising"
+        ]
+    },
+    {
+        "id": "short_interest_surge",
+        "name": "Short Interest Surge",
+        "description": "Rapid increase in short positions indicating bearish bets",
+        "severity": "high",
+        "indicators": [
+            "Short interest > 10%",
+            "Increase > 50% MoM"
+        ]
+    },
+    {
+        "id": "fii_dii_divergence",
+        "name": "FII-DII Divergence",
+        "description": "Foreign and domestic institutions taking opposite positions",
+        "severity": "medium",
+        "indicators": [
+            "FII net seller > 5 days",
+            "DII net buyer > 5 days"
+        ]
+    },
+    {
+        "id": "margin_compression",
+        "name": "Margin Compression Hidden",
+        "description": "Gross margin declining while stock rises",
+        "severity": "high",
+        "indicators": [
+            "Gross margin decline > 200bps YoY",
+            "Stock up > 10%"
+        ]
+    },
+    {
+        "id": "cash_burn_acceleration",
+        "name": "Cash Burn Acceleration",
+        "description": "Operating cash flow deteriorating rapidly",
+        "severity": "high",
+        "indicators": [
+            "OCF negative",
+            "Cash burn rate doubled"
+        ]
+    },
+    {
+        "id": "receivables_spike",
+        "name": "Receivables Spike",
+        "description": "Accounts receivable growing faster than revenue",
+        "severity": "medium",
+        "indicators": [
+            "Receivables growth > Revenue growth + 20%",
+            "DSO increase > 30%"
+        ]
+    },
+    {
+        "id": "inventory_buildup",
+        "name": "Inventory Buildup",
+        "description": "Inventory accumulation suggesting demand weakness",
+        "severity": "medium",
+        "indicators": [
+            "Inventory days > 90",
+            "Inventory growth > Sales growth"
+        ]
+    },
+    {
+        "id": "related_party_surge",
+        "name": "Related Party Transaction Surge",
+        "description": "Unusual increase in transactions with promoter entities",
+        "severity": "high",
+        "indicators": [
+            "RPT > 10% of revenue",
+            "New RPT entities added"
+        ]
+    },
+    {
+        "id": "auditor_change",
+        "name": "Auditor Change Red Flag",
+        "description": "Sudden auditor resignation or change",
+        "severity": "high",
+        "indicators": [
+            "Mid-year auditor change",
+            "Multiple changes in 3 years"
+        ]
+    },
+    {
+        "id": "earnings_quality_decline",
+        "name": "Earnings Quality Decline",
+        "description": "Accrual ratio increasing significantly",
+        "severity": "high",
+        "indicators": [
+            "Accrual ratio > 10%",
+            "CFO/Net Income < 0.5"
+        ]
+    },
+    {
+        "id": "capex_without_growth",
+        "name": "Capex Without Revenue Growth",
+        "description": "Heavy capital spending not translating to revenue",
+        "severity": "medium",
+        "indicators": [
+            "Capex > 20% of revenue",
+            "Revenue growth < 5%"
+        ]
+    },
+    {
+        "id": "goodwill_impairment_risk",
+        "name": "Goodwill Impairment Risk",
+        "description": "Large goodwill relative to equity with declining performance",
+        "severity": "medium",
+        "indicators": [
+            "Goodwill > 50% equity",
+            "ROIC declining"
+        ]
+    },
+    {
+        "id": "working_capital_stress",
+        "name": "Working Capital Stress",
+        "description": "Current ratio deteriorating rapidly",
+        "severity": "high",
+        "indicators": [
+            "Current ratio < 1",
+            "Net working capital negative"
+        ]
+    },
+    {
+        "id": "concentration_risk",
+        "name": "Customer/Supplier Concentration",
+        "description": "Heavy dependence on single customer or supplier",
+        "severity": "medium",
+        "indicators": [
+            "Top customer > 25% revenue",
+            "Single supplier > 40% COGS"
+        ]
+    },
+    {
+        "id": "forex_exposure_unhedged",
+        "name": "Forex Exposure Unhedged",
+        "description": "Large forex debt without hedging",
+        "severity": "medium",
+        "indicators": [
+            "Forex debt > 30% total debt",
+            "No hedging disclosed"
+        ]
+    },
+    {
+        "id": "contingent_liability_surge",
+        "name": "Contingent Liability Surge",
+        "description": "Off-balance sheet liabilities increasing",
+        "severity": "high",
+        "indicators": [
+            "Contingent liabilities > 10% equity",
+            "Increase > 50% YoY"
+        ]
+    },
+    {
+        "id": "price_momentum_divergence",
+        "name": "Price-Momentum Divergence",
+        "description": "Price making new highs while RSI shows weakness",
+        "severity": "medium",
+        "indicators": [
+            "52-week high",
+            "RSI < 50 or declining"
+        ]
+    },
+    {
+        "id": "sector_underperformance",
+        "name": "Sector Underperformance Hidden",
+        "description": "Stock rising but lagging sector significantly",
+        "severity": "low",
+        "indicators": [
+            "Stock up < sector by 15%",
+            "Relative strength declining"
+        ]
+    },
+    {
+        "id": "options_unusual_activity",
+        "name": "Options Unusual Activity",
+        "description": "Abnormal put buying or call selling",
+        "severity": "high",
+        "indicators": [
+            "Put/Call ratio > 2",
+            "Volume > 10x average"
+        ]
+    },
+    {
+        "id": "management_exodus",
+        "name": "Management Exodus",
+        "description": "Multiple senior executives leaving",
+        "severity": "high",
+        "indicators": [
+            "> 2 CXO departures in 12 months",
+            "CFO departure"
+        ]
+    },
+    {
+        "id": "disclosure_delays",
+        "name": "Disclosure Delays",
+        "description": "Late filings or delayed results",
+        "severity": "high",
+        "indicators": [
+            "Results delayed > 45 days",
+            "Multiple late filings"
+        ]
+    },
+    {
+        "id": "guidance_reduction",
+        "name": "Guidance Reduction Pattern",
+        "description": "Company consistently lowering forward guidance",
+        "severity": "medium",
+        "indicators": [
+            "> 2 guidance cuts in 4 quarters",
+            "Revenue guidance cut > 10%"
+        ]
+    },
+    {
+        "id": "buyback_failure",
+        "name": "Buyback Non-Completion",
+        "description": "Announced buyback not executed fully",
+        "severity": "medium",
+        "indicators": [
+            "Buyback utilization < 50%",
+            "Buyback announced but paused"
+        ]
+    },
+    {
+        "id": "insider_form_anomalies",
+        "name": "Insider Form Anomalies",
+        "description": "Late or amended insider trading disclosures",
+        "severity": "high",
+        "indicators": [
+            "Form 4 filed late",
+            "Amended disclosures"
+        ]
+    },
+    {
+        "id": "peer_divergence",
+        "name": "Peer Performance Divergence",
+        "description": "Stock direction opposite to all sector peers",
+        "severity": "medium",
+        "indicators": [
+            "Stock up > 20% while peers down",
+            "Correlation breakdown"
+        ]
+    },
+    {
+        "id": "regulatory_investigation",
+        "name": "Regulatory Investigation Pending",
+        "description": "Ongoing SEBI or ED investigation not priced in",
+        "severity": "high",
+        "indicators": [
+            "Investigation disclosed in filing",
+            "Stock stable post-disclosure"
+        ]
+    },
+    {
+        "id": "rating_downgrade",
+        "name": "Credit Rating Downgrade",
+        "description": "Credit agency downgrade not reflected in stock",
+        "severity": "high",
+        "indicators": [
+            "Rating cut > 2 notches",
+            "Stock stable or up"
+        ]
+    },
+    {
+        "id": "covenant_breach_risk",
+        "name": "Covenant Breach Risk",
+        "description": "Company approaching debt covenant limits",
+        "severity": "high",
+        "indicators": [
+            "Debt/EBITDA near covenant",
+            "DSCR < 1.2"
+        ]
+    },
+    {
+        "id": "pension_deficit",
+        "name": "Pension/Gratuity Deficit",
+        "description": "Unfunded employee benefit obligations",
+        "severity": "medium",
+        "indicators": [
+            "Pension deficit > 10% market cap",
+            "Liability growing"
+        ]
+    },
+    {
+        "id": "subsidiary_losses",
+        "name": "Subsidiary Losses Masked",
+        "description": "Profitable consolidated results hiding subsidiary losses",
+        "severity": "high",
+        "indicators": [
+            "Material subsidiary loss",
+            "Minimal disclosure"
+        ]
+    },
+    {
+        "id": "tax_dispute_escalation",
+        "name": "Tax Dispute Escalation",
+        "description": "Large tax demands pending in courts",
+        "severity": "medium",
+        "indicators": [
+            "Tax demand > 10% market cap",
+            "Adverse order received"
+        ]
+    },
+    {
+        "id": "environmental_liability",
+        "name": "Environmental Liability",
+        "description": "Environmental compliance issues or penalties",
+        "severity": "medium",
+        "indicators": [
+            "NGT notice received",
+            "Pollution closure orders"
+        ]
+    },
+    {
+        "id": "technology_disruption",
+        "name": "Technology Disruption Risk",
+        "description": "Business model threatened by tech change",
+        "severity": "high",
+        "indicators": [
+            "Digital competitor growing 10x",
+            "Core product commoditized"
+        ]
+    },
+    {
+        "id": "capacity_utilization_low",
+        "name": "Low Capacity Utilization",
+        "description": "Operating far below capacity suggesting demand issues",
+        "severity": "medium",
+        "indicators": [
+            "Utilization < 60%",
+            "Capex still ongoing"
+        ]
+    },
+    {
+        "id": "brand_value_erosion",
+        "name": "Brand Value Erosion",
+        "description": "Market share losses not reflected in valuation",
+        "severity": "medium",
+        "indicators": [
+            "Market share decline > 5%",
+            "Premium valuation maintained"
+        ]
+    },
+    {
+        "id": "debt_maturity_wall",
+        "name": "Debt Maturity Wall",
+        "description": "Large debt repayments due with refinancing risk",
+        "severity": "high",
+        "indicators": [
+            "Maturity > 30% in 1 year",
+            "Interest rates up sharply"
+        ]
+    },
+    {
+        "id": "asset_quality_stress",
+        "name": "Asset Quality Stress (Banks)",
+        "description": "NPA formation accelerating for financial institutions",
+        "severity": "high",
+        "indicators": [
+            "GNPA increase > 50bps QoQ",
+            "PCR declining"
+        ]
+    },
+    {
+        "id": "growth_stock_derating",
+        "name": "Growth Stock Derating Risk",
+        "description": "High growth stock with decelerating growth",
+        "severity": "high",
+        "indicators": [
+            "Revenue growth decline > 20%",
+            "Still trading > 50x PE"
+        ]
+    },
+    {
+        "id": "cyclical_peak",
+        "name": "Cyclical Peak Warning",
+        "description": "Cyclical stock at margin peak",
+        "severity": "medium",
+        "indicators": [
+            "Margin at 10-year high",
+            "Capacity expansion industry-wide"
+        ]
+    },
+    {
+        "id": "etf_flow_disconnect",
+        "name": "ETF Flow Disconnect",
+        "description": "Index inclusion/exclusion causing artificial price moves",
+        "severity": "low",
+        "indicators": [
+            "Index weight change announced",
+            "Volume surge on rebalance day"
+        ]
+    },
+    {
+        "id": "rights_issue_distress",
+        "name": "Rights Issue Distress Signal",
+        "description": "Rights issue at significant discount suggesting capital need",
+        "severity": "high",
+        "indicators": [
+            "Rights issue discount > 30%",
+            "Promoter participation uncertain"
+        ]
+    },
+    {
+        "id": "strategic_investor_exit",
+        "name": "Strategic Investor Exit",
+        "description": "Long-term strategic investor selling stake",
+        "severity": "high",
+        "indicators": [
+            "PE/VC selling after 5+ years",
+            "Block deal at discount"
+        ]
+    }
+]

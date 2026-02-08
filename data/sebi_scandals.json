@@ -1,0 +1,452 @@
+[
+    {
+        "id": "harshad_mehta_1992",
+        "name": "Harshad Mehta Scam",
+        "year": 1992,
+        "description": "Manipulation of banking receipts to inflate stock prices artificially using fake Bank Receipts worth ₹4,000 crore",
+        "pattern": "price divergence from fundamentals",
+        "sector": "Banking",
+        "loss_crore": 4000
+    },
+    {
+        "id": "ketan_parekh_2001",
+        "name": "Ketan Parekh Scam",
+        "year": 2001,
+        "description": "Circular trading and price rigging in K-10 technology stocks using pay orders",
+        "pattern": "price manipulation insider",
+        "sector": "IT",
+        "loss_crore": 1200
+    },
+    {
+        "id": "satyam_2009",
+        "name": "Satyam Fraud",
+        "year": 2009,
+        "description": "Falsified accounts showing inflated revenues and ₹7,136 crore fake bank balances",
+        "pattern": "debt manipulation accounting",
+        "sector": "IT",
+        "loss_crore": 7136
+    },
+    {
+        "id": "nsel_2013",
+        "name": "NSEL Crisis",
+        "year": 2013,
+        "description": "Commodity exchange default revealing ₹5,600 crore payment crisis",
+        "pattern": "debt default liquidity",
+        "sector": "Commodities",
+        "loss_crore": 5600
+    },
+    {
+        "id": "yes_bank_2020",
+        "name": "Yes Bank Crisis",
+        "year": 2020,
+        "description": "NPA concealment and governance failures leading to RBI moratorium",
+        "pattern": "debt governance insider",
+        "sector": "Banking",
+        "loss_crore": 35000
+    },
+    {
+        "id": "hindenburg_adani_2023",
+        "name": "Hindenburg Report on Adani",
+        "year": 2023,
+        "description": "Short seller report alleging stock manipulation and accounting fraud, wiped $100B market cap",
+        "pattern": "price manipulation debt governance",
+        "sector": "Conglomerate",
+        "loss_crore": 1200000
+    },
+    {
+        "id": "cbi_calcutta_1993",
+        "name": "CRB Capital Markets Scam",
+        "year": 1993,
+        "description": "Non-banking financial company scam involving ₹1,200 crore in fraudulent deposits",
+        "pattern": "debt fraud deposits",
+        "sector": "Finance",
+        "loss_crore": 1200
+    },
+    {
+        "id": "home_trade_2002",
+        "name": "Home Trade Scam",
+        "year": 2002,
+        "description": "Online trading platform fraud involving ₹600 crore in phony gilts transactions",
+        "pattern": "price manipulation bonds",
+        "sector": "Finance",
+        "loss_crore": 600
+    },
+    {
+        "id": "uti_2001",
+        "name": "UTI US-64 Crisis",
+        "year": 2001,
+        "description": "India's largest mutual fund crisis with ₹4,700 crore losses in US-64 scheme",
+        "pattern": "price divergence NAV",
+        "sector": "Mutual Funds",
+        "loss_crore": 4700
+    },
+    {
+        "id": "sahara_2012",
+        "name": "Sahara OFCD Scam",
+        "year": 2012,
+        "description": "Illegal bonds issued to 30 million investors worth ₹24,000 crore",
+        "pattern": "debt fraud deposits",
+        "sector": "Real Estate",
+        "loss_crore": 24000
+    },
+    {
+        "id": "pnb_nirav_2018",
+        "name": "PNB-Nirav Modi Fraud",
+        "year": 2018,
+        "description": "₹14,000 crore banking fraud using unauthorized SWIFT messages",
+        "pattern": "debt fraud banking",
+        "sector": "Banking",
+        "loss_crore": 14000
+    },
+    {
+        "id": "vakrangee_2018",
+        "name": "Vakrangee Crash",
+        "year": 2018,
+        "description": "Stock crashed 80% after promoter pledging concerns and technical trading patterns",
+        "pattern": "price manipulation promoter pledge",
+        "sector": "IT Services",
+        "loss_crore": 5000
+    },
+    {
+        "id": "il_fs_2018",
+        "name": "IL&FS Default",
+        "year": 2018,
+        "description": "Infrastructure lender defaulted on ₹91,000 crore debt triggering NBFC crisis",
+        "pattern": "debt default liquidity",
+        "sector": "Finance",
+        "loss_crore": 91000
+    },
+    {
+        "id": "dhfl_2019",
+        "name": "DHFL Fraud",
+        "year": 2019,
+        "description": "Housing finance company fraud involving ₹34,000 crore siphoning",
+        "pattern": "debt fraud governance",
+        "sector": "Finance",
+        "loss_crore": 34000
+    },
+    {
+        "id": "lakshmi_vilas_2020",
+        "name": "Lakshmi Vilas Bank Failure",
+        "year": 2020,
+        "description": "Bank failure due to NPAs and negative net worth, merged with DBS India",
+        "pattern": "debt default NPA",
+        "sector": "Banking",
+        "loss_crore": 2500
+    },
+    {
+        "id": "karvy_2019",
+        "name": "Karvy Stock Broking Fraud",
+        "year": 2019,
+        "description": "Broker pledged client securities worth ₹2,000 crore without authorization",
+        "pattern": "price manipulation pledge",
+        "sector": "Broking",
+        "loss_crore": 2000
+    },
+    {
+        "id": "pmc_bank_2019",
+        "name": "PMC Bank Scam",
+        "year": 2019,
+        "description": "Cooperative bank covered up ₹4,355 crore NPAs to single borrower HDIL",
+        "pattern": "debt fraud NPA",
+        "sector": "Banking",
+        "loss_crore": 4355
+    },
+    {
+        "id": "wirecard_india_2020",
+        "name": "Wirecard India Connection",
+        "year": 2020,
+        "description": "German fintech fraud with Indian subsidiary implicated in fake transaction volumes",
+        "pattern": "revenue manipulation",
+        "sector": "Fintech",
+        "loss_crore": 150000
+    },
+    {
+        "id": "cafe_coffee_2019",
+        "name": "Café Coffee Day Crisis",
+        "year": 2019,
+        "description": "Founder death revealed ₹3,500 crore hidden debt and pledged shares",
+        "pattern": "debt governance promoter",
+        "sector": "Consumer",
+        "loss_crore": 3500
+    },
+    {
+        "id": "rcom_2019",
+        "name": "Reliance Communications Bankruptcy",
+        "year": 2019,
+        "description": "Telecom company bankruptcy with ₹46,000 crore debt after Jio disruption",
+        "pattern": "debt default competition",
+        "sector": "Telecom",
+        "loss_crore": 46000
+    },
+    {
+        "id": "jet_airways_2019",
+        "name": "Jet Airways Grounding",
+        "year": 2019,
+        "description": "Airline grounded with ₹8,000 crore debt after failed rescue attempts",
+        "pattern": "debt default liquidity",
+        "sector": "Aviation",
+        "loss_crore": 8000
+    },
+    {
+        "id": "mcx_ftil_2013",
+        "name": "MCX-FTIL Fallout",
+        "year": 2013,
+        "description": "Commodity exchange promoter banned after NSEL crisis connection",
+        "pattern": "governance fraud",
+        "sector": "Commodities",
+        "loss_crore": 2000
+    },
+    {
+        "id": "gitanjali_gems_2018",
+        "name": "Gitanjali Gems Fraud",
+        "year": 2018,
+        "description": "Jewelry company implicated in PNB fraud with ₹7,110 crore exposure",
+        "pattern": "debt fraud banking",
+        "sector": "Retail",
+        "loss_crore": 7110
+    },
+    {
+        "id": "bhushan_steel_2017",
+        "name": "Bhushan Steel Bankruptcy",
+        "year": 2017,
+        "description": "Steel company became India's largest IBC case with ₹56,000 crore debt",
+        "pattern": "debt default overcapacity",
+        "sector": "Metals",
+        "loss_crore": 56000
+    },
+    {
+        "id": "essar_steel_2017",
+        "name": "Essar Steel Insolvency",
+        "year": 2017,
+        "description": "Steel maker entered insolvency with ₹54,000 crore debt to 30+ banks",
+        "pattern": "debt default overcapacity",
+        "sector": "Metals",
+        "loss_crore": 54000
+    },
+    {
+        "id": "sintex_2020",
+        "name": "Sintex Industries Split",
+        "year": 2020,
+        "description": "Manufacturing conglomerate debt restructuring after ₹7,000 crore exposure",
+        "pattern": "debt restructuring",
+        "sector": "Manufacturing",
+        "loss_crore": 7000
+    },
+    {
+        "id": "vodafone_idea_2020",
+        "name": "Vodafone Idea AGR Crisis",
+        "year": 2020,
+        "description": "Telecom company faced ₹58,000 crore AGR dues threatening survival",
+        "pattern": "debt regulatory",
+        "sector": "Telecom",
+        "loss_crore": 58000
+    },
+    {
+        "id": "suzlon_2019",
+        "name": "Suzlon Energy Restructuring",
+        "year": 2019,
+        "description": "Wind energy company restructured ₹12,000 crore debt multiple times",
+        "pattern": "debt restructuring overcapacity",
+        "sector": "Power",
+        "loss_crore": 12000
+    },
+    {
+        "id": "jaypee_infra_2017",
+        "name": "Jaypee Infratech Insolvency",
+        "year": 2017,
+        "description": "Real estate company entered IBC with 20,000 stuck homebuyers",
+        "pattern": "debt default real estate",
+        "sector": "Real Estate",
+        "loss_crore": 9500
+    },
+    {
+        "id": "unitech_2017",
+        "name": "Unitech Promoter Arrest",
+        "year": 2017,
+        "description": "Real estate promoters arrested for siphoning ₹2,000 crore homebuyer funds",
+        "pattern": "fraud governance real estate",
+        "sector": "Real Estate",
+        "loss_crore": 2000
+    },
+    {
+        "id": "amrapali_2019",
+        "name": "Amrapali Real Estate Fraud",
+        "year": 2019,
+        "description": "Builder diverted ₹3,000 crore homebuyer funds to shell companies",
+        "pattern": "fraud diversion real estate",
+        "sector": "Real Estate",
+        "loss_crore": 3000
+    },
+    {
+        "id": "dewan_housing_2019",
+        "name": "Dewan Housing (DHFL) Crisis",
+        "year": 2019,
+        "description": "NBFC crisis with ₹91,000 crore exposure triggering sector-wide freeze",
+        "pattern": "debt default NBFC",
+        "sector": "Finance",
+        "loss_crore": 91000
+    },
+    {
+        "id": "altico_capital_2019",
+        "name": "Altico Capital Default",
+        "year": 2019,
+        "description": "Real estate lender defaulted on ₹5,000 crore obligations",
+        "pattern": "debt default NBFC",
+        "sector": "Finance",
+        "loss_crore": 5000
+    },
+    {
+        "id": "cox_kings_2019",
+        "name": "Cox & Kings Bankruptcy",
+        "year": 2019,
+        "description": "Travel company collapsed with ₹5,500 crore fraud allegations",
+        "pattern": "fraud debt travel",
+        "sector": "Travel",
+        "loss_crore": 5500
+    },
+    {
+        "id": "reliance_capital_2021",
+        "name": "Reliance Capital Insolvency",
+        "year": 2021,
+        "description": "ADAG group company entered insolvency with ₹40,000 crore debt",
+        "pattern": "debt default NBFC",
+        "sector": "Finance",
+        "loss_crore": 40000
+    },
+    {
+        "id": "future_retail_2022",
+        "name": "Future Retail Insolvency",
+        "year": 2022,
+        "description": "Retail giant collapsed after failed Amazon-Reliance deal with ₹27,000 crore debt",
+        "pattern": "debt default retail",
+        "sector": "Retail",
+        "loss_crore": 27000
+    },
+    {
+        "id": "go_first_2023",
+        "name": "Go First Airlines Bankruptcy",
+        "year": 2023,
+        "description": "Wadia group airline filed for insolvency citing engine issues and ₹11,463 crore debt",
+        "pattern": "debt default aviation",
+        "sector": "Aviation",
+        "loss_crore": 11463
+    },
+    {
+        "id": "byju_2023",
+        "name": "Byju's Valuation Crisis",
+        "year": 2023,
+        "description": "Edtech unicorn faced 90% valuation markdown and governance concerns",
+        "pattern": "valuation governance startup",
+        "sector": "Edtech",
+        "loss_crore": 170000
+    },
+    {
+        "id": "paytm_rbi_2024",
+        "name": "Paytm Payments Bank RBI Action",
+        "year": 2024,
+        "description": "RBI barred Paytm Payments Bank from onboarding new customers due to compliance issues",
+        "pattern": "regulatory governance fintech",
+        "sector": "Fintech",
+        "loss_crore": 30000
+    },
+    {
+        "id": "zee_sony_2023",
+        "name": "Zee-Sony Merger Collapse",
+        "year": 2023,
+        "description": "₹70,000 crore merger cancelled after governance and regulatory concerns",
+        "pattern": "governance merger media",
+        "sector": "Media",
+        "loss_crore": 20000
+    },
+    {
+        "id": "spicejet_2022",
+        "name": "SpiceJet Crisis",
+        "year": 2022,
+        "description": "Airline faced grounding threats with ₹3,500 crore dues and safety concerns",
+        "pattern": "debt default aviation",
+        "sector": "Aviation",
+        "loss_crore": 3500
+    },
+    {
+        "id": "bank_of_baroda_2015",
+        "name": "Bank of Baroda Forex Scam",
+        "year": 2015,
+        "description": "₹6,172 crore remitted illegally through Hong Kong routing",
+        "pattern": "fraud forex banking",
+        "sector": "Banking",
+        "loss_crore": 6172
+    },
+    {
+        "id": "rotomac_2018",
+        "name": "Rotomac Pens Fraud",
+        "year": 2018,
+        "description": "Pen manufacturer accused of ₹3,695 crore bank fraud",
+        "pattern": "debt fraud manufacturing",
+        "sector": "Manufacturing",
+        "loss_crore": 3695
+    },
+    {
+        "id": "winsome_diamonds_2013",
+        "name": "Winsome Diamonds Fraud",
+        "year": 2013,
+        "description": "Diamond exporter defaulted on ₹6,800 crore loans to consortium",
+        "pattern": "debt fraud exports",
+        "sector": "Gems",
+        "loss_crore": 6800
+    },
+    {
+        "id": "kingfisher_2012",
+        "name": "Kingfisher Airlines Collapse",
+        "year": 2012,
+        "description": "Airline grounded with ₹9,000 crore debt and promoter loan fraud allegations",
+        "pattern": "debt default aviation",
+        "sector": "Aviation",
+        "loss_crore": 9000
+    },
+    {
+        "id": "deccan_chronicle_2012",
+        "name": "Deccan Chronicle Holdings Fraud",
+        "year": 2012,
+        "description": "Media company promoters accused of ₹4,000 crore fraud",
+        "pattern": "fraud governance media",
+        "sector": "Media",
+        "loss_crore": 4000
+    },
+    {
+        "id": "lanco_infra_2017",
+        "name": "Lanco Infratech Bankruptcy",
+        "year": 2017,
+        "description": "Infrastructure company entered IBC with ₹44,000 crore debt",
+        "pattern": "debt default infrastructure",
+        "sector": "Infrastructure",
+        "loss_crore": 44000
+    },
+    {
+        "id": "videocon_2018",
+        "name": "Videocon Industries Insolvency",
+        "year": 2018,
+        "description": "Consumer electronics giant collapsed with ₹64,000 crore debt",
+        "pattern": "debt default manufacturing",
+        "sector": "Consumer",
+        "loss_crore": 64000
+    },
+    {
+        "id": "sterling_biotech_2017",
+        "name": "Sterling Biotech Fraud",
+        "year": 2017,
+        "description": "Pharma company promoters fled facing ₹8,100 crore fraud charges",
+        "pattern": "fraud debt pharma",
+        "sector": "Pharma",
+        "loss_crore": 8100
+    },
+    {
+        "id": "abb_india_2013",
+        "name": "ABB India Fraud",
+        "year": 2013,
+        "description": "Swiss MNC's India unit faced ₹400 crore embezzlement by employees",
+        "pattern": "fraud internal manufacturing",
+        "sector": "Manufacturing",
+        "loss_crore": 400
+    }
+]

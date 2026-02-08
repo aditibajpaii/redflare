@@ -1,0 +1,302 @@
+[
+    {
+        "sector": "Banking",
+        "avgPE": 12.5,
+        "avgDebtEquity": 8.5,
+        "avgMargin": 0.22
+    },
+    {
+        "sector": "IT",
+        "avgPE": 28.0,
+        "avgDebtEquity": 0.15,
+        "avgMargin": 0.20
+    },
+    {
+        "sector": "Pharma",
+        "avgPE": 25.0,
+        "avgDebtEquity": 0.30,
+        "avgMargin": 0.18
+    },
+    {
+        "sector": "Auto",
+        "avgPE": 18.0,
+        "avgDebtEquity": 0.45,
+        "avgMargin": 0.10
+    },
+    {
+        "sector": "Energy",
+        "avgPE": 12.0,
+        "avgDebtEquity": 0.80,
+        "avgMargin": 0.08
+    },
+    {
+        "sector": "FMCG",
+        "avgPE": 55.0,
+        "avgDebtEquity": 0.20,
+        "avgMargin": 0.22
+    },
+    {
+        "sector": "Metals",
+        "avgPE": 8.0,
+        "avgDebtEquity": 0.60,
+        "avgMargin": 0.12
+    },
+    {
+        "sector": "Cement",
+        "avgPE": 22.0,
+        "avgDebtEquity": 0.35,
+        "avgMargin": 0.15
+    },
+    {
+        "sector": "Telecom",
+        "avgPE": 45.0,
+        "avgDebtEquity": 1.50,
+        "avgMargin": 0.08
+    },
+    {
+        "sector": "Real Estate",
+        "avgPE": 15.0,
+        "avgDebtEquity": 0.90,
+        "avgMargin": 0.18
+    },
+    {
+        "sector": "Power",
+        "avgPE": 14.0,
+        "avgDebtEquity": 1.20,
+        "avgMargin": 0.12
+    },
+    {
+        "sector": "Infrastructure",
+        "avgPE": 16.0,
+        "avgDebtEquity": 1.00,
+        "avgMargin": 0.10
+    },
+    {
+        "sector": "Finance",
+        "avgPE": 18.0,
+        "avgDebtEquity": 5.00,
+        "avgMargin": 0.25
+    },
+    {
+        "sector": "Insurance",
+        "avgPE": 20.0,
+        "avgDebtEquity": 0.10,
+        "avgMargin": 0.15
+    },
+    {
+        "sector": "Media",
+        "avgPE": 22.0,
+        "avgDebtEquity": 0.40,
+        "avgMargin": 0.18
+    },
+    {
+        "sector": "Retail",
+        "avgPE": 35.0,
+        "avgDebtEquity": 0.50,
+        "avgMargin": 0.05
+    },
+    {
+        "sector": "Aviation",
+        "avgPE": 25.0,
+        "avgDebtEquity": 2.50,
+        "avgMargin": 0.03
+    },
+    {
+        "sector": "Hotels",
+        "avgPE": 40.0,
+        "avgDebtEquity": 0.60,
+        "avgMargin": 0.15
+    },
+    {
+        "sector": "Chemicals",
+        "avgPE": 20.0,
+        "avgDebtEquity": 0.35,
+        "avgMargin": 0.14
+    },
+    {
+        "sector": "Textiles",
+        "avgPE": 12.0,
+        "avgDebtEquity": 0.55,
+        "avgMargin": 0.08
+    },
+    {
+        "sector": "Consumer Durables",
+        "avgPE": 45.0,
+        "avgDebtEquity": 0.25,
+        "avgMargin": 0.12
+    },
+    {
+        "sector": "Capital Goods",
+        "avgPE": 35.0,
+        "avgDebtEquity": 0.40,
+        "avgMargin": 0.10
+    },
+    {
+        "sector": "Oil & Gas",
+        "avgPE": 10.0,
+        "avgDebtEquity": 0.50,
+        "avgMargin": 0.06
+    },
+    {
+        "sector": "New Age Tech",
+        "avgPE": 0,
+        "avgDebtEquity": 0.20,
+        "avgMargin": -0.15
+    },
+    {
+        "sector": "Fintech",
+        "avgPE": 0,
+        "avgDebtEquity": 0.30,
+        "avgMargin": -0.10
+    },
+    {
+        "sector": "Logistics",
+        "avgPE": 30.0,
+        "avgDebtEquity": 0.45,
+        "avgMargin": 0.06
+    },
+    {
+        "sector": "Healthcare",
+        "avgPE": 32.0,
+        "avgDebtEquity": 0.30,
+        "avgMargin": 0.12
+    },
+    {
+        "sector": "Education",
+        "avgPE": 25.0,
+        "avgDebtEquity": 0.35,
+        "avgMargin": 0.15
+    },
+    {
+        "sector": "Agriculture",
+        "avgPE": 15.0,
+        "avgDebtEquity": 0.50,
+        "avgMargin": 0.08
+    },
+    {
+        "sector": "Paper",
+        "avgPE": 10.0,
+        "avgDebtEquity": 0.70,
+        "avgMargin": 0.10
+    },
+    {
+        "sector": "Sugar",
+        "avgPE": 8.0,
+        "avgDebtEquity": 0.80,
+        "avgMargin": 0.06
+    },
+    {
+        "sector": "Fertilizers",
+        "avgPE": 12.0,
+        "avgDebtEquity": 0.60,
+        "avgMargin": 0.08
+    },
+    {
+        "sector": "Gems & Jewelry",
+        "avgPE": 20.0,
+        "avgDebtEquity": 0.40,
+        "avgMargin": 0.05
+    },
+    {
+        "sector": "Defence",
+        "avgPE": 40.0,
+        "avgDebtEquity": 0.15,
+        "avgMargin": 0.12
+    },
+    {
+        "sector": "Specialty Chemicals",
+        "avgPE": 35.0,
+        "avgDebtEquity": 0.30,
+        "avgMargin": 0.16
+    },
+    {
+        "sector": "Packaging",
+        "avgPE": 18.0,
+        "avgDebtEquity": 0.45,
+        "avgMargin": 0.10
+    },
+    {
+        "sector": "Medical Devices",
+        "avgPE": 45.0,
+        "avgDebtEquity": 0.20,
+        "avgMargin": 0.18
+    },
+    {
+        "sector": "EV & Battery",
+        "avgPE": 80.0,
+        "avgDebtEquity": 0.50,
+        "avgMargin": 0.02
+    },
+    {
+        "sector": "Renewable Energy",
+        "avgPE": 50.0,
+        "avgDebtEquity": 1.50,
+        "avgMargin": 0.20
+    },
+    {
+        "sector": "IT Services",
+        "avgPE": 26.0,
+        "avgDebtEquity": 0.10,
+        "avgMargin": 0.18
+    },
+    {
+        "sector": "Semiconductors",
+        "avgPE": 45.0,
+        "avgDebtEquity": 0.25,
+        "avgMargin": 0.22
+    },
+    {
+        "sector": "Cloud & SaaS",
+        "avgPE": 0,
+        "avgDebtEquity": 0.15,
+        "avgMargin": -0.05
+    },
+    {
+        "sector": "E-commerce",
+        "avgPE": 0,
+        "avgDebtEquity": 0.30,
+        "avgMargin": -0.08
+    },
+    {
+        "sector": "Gaming",
+        "avgPE": 50.0,
+        "avgDebtEquity": 0.10,
+        "avgMargin": 0.25
+    },
+    {
+        "sector": "Quick Commerce",
+        "avgPE": 0,
+        "avgDebtEquity": 0.40,
+        "avgMargin": -0.20
+    },
+    {
+        "sector": "Food Delivery",
+        "avgPE": 0,
+        "avgDebtEquity": 0.25,
+        "avgMargin": -0.12
+    },
+    {
+        "sector": "EdTech",
+        "avgPE": 0,
+        "avgDebtEquity": 0.50,
+        "avgMargin": -0.25
+    },
+    {
+        "sector": "HealthTech",
+        "avgPE": 60.0,
+        "avgDebtEquity": 0.20,
+        "avgMargin": 0.05
+    },
+    {
+        "sector": "Agritech",
+        "avgPE": 0,
+        "avgDebtEquity": 0.35,
+        "avgMargin": -0.15
+    },
+    {
+        "sector": "Conglomerate",
+        "avgPE": 20.0,
+        "avgDebtEquity": 0.80,
+        "avgMargin": 0.10
+    }
+]
