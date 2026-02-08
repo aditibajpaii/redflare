@@ -1,0 +1,103 @@
+[
+    {
+        "symbol": "RELIANCE.NS",
+        "name": "Reliance Industries",
+        "sector": "Energy",
+        "marketCap": 1800000,
+        "riskFactors": [
+            "High debt",
+            "Retail competition"
+        ]
+    },
+    {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services",
+        "sector": "IT",
+        "marketCap": 1400000,
+        "riskFactors": [
+            "Currency volatility",
+            "US recession risk"
+        ]
+    },
+    {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank",
+        "sector": "Banking",
+        "marketCap": 1200000,
+        "riskFactors": [
+            "NPA concerns",
+            "RBI regulations"
+        ]
+    },
+    {
+        "symbol": "INFY.NS",
+        "name": "Infosys",
+        "sector": "IT",
+        "marketCap": 750000,
+        "riskFactors": [
+            "Attrition",
+            "Client concentration"
+        ]
+    },
+    {
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank",
+        "sector": "Banking",
+        "marketCap": 700000,
+        "riskFactors": [
+            "Credit risk",
+            "Interest rate sensitivity"
+        ]
+    },
+    {
+        "symbol": "HINDUNILVR.NS",
+        "name": "Hindustan Unilever",
+        "sector": "FMCG",
+        "marketCap": 650000,
+        "riskFactors": [
+            "Input cost inflation",
+            "Rural slowdown"
+        ]
+    },
+    {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India",
+        "sector": "Banking",
+        "marketCap": 600000,
+        "riskFactors": [
+            "High Debt",
+            "Government interference",
+            "NPA legacy"
+        ]
+    },
+    {
+        "symbol": "BHARTIARTL.NS",
+        "name": "Bharti Airtel",
+        "sector": "Telecom",
+        "marketCap": 550000,
+        "riskFactors": [
+            "Tariff wars",
+            "5G capex"
+        ]
+    },
+    {
+        "symbol": "ADANIENT.NS",
+        "name": "Adani Enterprises",
+        "sector": "Conglomerate",
+        "marketCap": 400000,
+        "riskFactors": [
+            "High leverage",
+            "Governance concerns"
+        ]
+    },
+    {
+        "symbol": "KOTAKBANK.NS",
+        "name": "Kotak Mahindra Bank",
+        "sector": "Banking",
+        "marketCap": 380000,
+        "riskFactors": [
+            "Promoter stake",
+            "Valuation premium"
+        ]
+    }
+]
