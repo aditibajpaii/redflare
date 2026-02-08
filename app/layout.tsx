@@ -20,7 +20,7 @@ const pixelFont = VT323({
 })
 
 export const metadata: Metadata = {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://redflare.app"),
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://redflare.vercel.app"),
     title: "Red Flare | Divergence Detection for Indian Stock Markets",
     description: "AI-powered divergence detection platform for NIFTY 50 stocks. Analyze price-sentiment divergences, insider activity, and sector anomalies with Algolia-powered search.",
     keywords: ["stock analysis", "divergence detection", "NIFTY 50", "Indian markets", "AI trading"],
