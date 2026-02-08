@@ -158,7 +158,7 @@ export function VerdictCard({
                 <div className="relative">
                     <h4 className="text-xs text-muted-foreground uppercase tracking-wider mb-3 flex items-center gap-2">
                         <Stars01 className="w-3 h-3" />
-                        AI Assessment
+                        AI Analysis
                         {isStreaming && (
                             <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent-growth animate-pulse ml-1" />
                         )}
@@ -182,6 +182,19 @@ export function VerdictCard({
                                 className="ml-1 inline-block w-2 h-4 bg-accent-growth align-middle"
                             />
                         )}
+                    </div>
+                </div>
+
+                <div className="mt-5 rounded-lg border border-border/70 bg-background/40 p-3">
+                    <p className="text-[11px] sm:text-xs text-muted-foreground">
+                        Educational analysis only. Not financial advice. Verify from official sources and consult a
+                        SEBI-registered adviser before making investment decisions.
+                    </p>
+                    <div className="mt-2 text-[11px] sm:text-xs text-muted-foreground space-y-1">
+                        <p className="font-medium text-foreground/80">Data Sources</p>
+                        <p>• Market/fundamental data: Yahoo Finance (may be delayed)</p>
+                        <p>• Search context: Algolia indices and configured rules/synonyms</p>
+                        <p>• Sentiment: Public news headline aggregation</p>
                     </div>
                 </div>
 

@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, VT323 } from "next/font/google"
+import { LegalFooter } from "@/components/LegalFooter"
 import "./globals.css"
 
 const geistSans = Geist({
@@ -41,6 +42,7 @@ export default function RootLayout({
         <html lang="en" className="dark" suppressHydrationWarning>
             <body className={`${geistSans.variable} ${geistMono.variable} ${pixelFont.variable} font-sans`}>
                 {children}
+                <LegalFooter />
             </body>
         </html>
     )

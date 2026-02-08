@@ -11,6 +11,7 @@ import { LiveChart } from "@/components/LiveChart"
 import { MatrixLoader } from "@/components/MatrixLoader"
 import { ShareModal } from "@/components/ShareModal"
 import { Header } from "@/components/Header"
+import { LegalDisclaimer } from "@/components/LegalDisclaimer"
 
 type StockData = {
     symbol: string
@@ -276,6 +277,10 @@ export default function StockPage() {
                             }}
                         />
                     )}
+
+                    <div className="mt-8 max-w-5xl mx-auto">
+                        <LegalDisclaimer compact />
+                    </div>
                 </div>
             </main>
         </div>

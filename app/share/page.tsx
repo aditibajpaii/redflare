@@ -5,6 +5,7 @@ import { Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { Player } from "@remotion/player"
 import { DivergenceReel } from "@/components/remotion/DivergenceReel"
+import { LegalDisclaimer } from "@/components/LegalDisclaimer"
 
 type SharePayload = {
     stock: {
@@ -50,22 +51,25 @@ function SharePageContent() {
 
     return (
         <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-4">
-            <div className="w-full max-w-sm rounded-3xl overflow-hidden border border-border bg-card/30 shadow-2xl">
-                <div className="aspect-[9/16] w-full bg-black">
-                    <Player
-                        component={DivergenceReel}
-                        inputProps={payload}
-                        acknowledgeRemotionLicense
-                        durationInFrames={150}
-                        compositionWidth={1080}
-                        compositionHeight={1920}
-                        fps={30}
-                        style={{ width: "100%", height: "100%" }}
-                        controls
-                        autoPlay
-                        loop
-                    />
+            <div className="w-full max-w-sm space-y-3">
+                <div className="rounded-3xl overflow-hidden border border-border bg-card/30 shadow-2xl">
+                    <div className="aspect-[9/16] w-full bg-black">
+                        <Player
+                            component={DivergenceReel}
+                            inputProps={payload}
+                            acknowledgeRemotionLicense
+                            durationInFrames={150}
+                            compositionWidth={1080}
+                            compositionHeight={1920}
+                            fps={30}
+                            style={{ width: "100%", height: "100%" }}
+                            controls
+                            autoPlay
+                            loop
+                        />
+                    </div>
                 </div>
+                <LegalDisclaimer compact />
             </div>
         </div>
     )

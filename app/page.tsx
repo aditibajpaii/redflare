@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation"
 import { StockOmnibar } from "@/components/StockOmnibar"
 import { BentoGrid } from "@/components/BentoGrid"
 import { Header } from "@/components/Header"
+import { LegalDisclaimer } from "@/components/LegalDisclaimer"
 
 
 
@@ -24,7 +25,7 @@ export default function Page() {
         <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent-growth selection:text-white overflow-x-hidden">
             <Header />
 
-            <main className="pt-20 sm:pt-24 pb-20 md:pb-16 px-4 sm:px-6 relative min-h-screen flex flex-col items-center justify-center">
+            <main className="pt-20 sm:pt-24 pb-12 px-4 sm:px-6 relative min-h-screen flex flex-col items-center justify-center">
                 <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,transparent_0%,#050505_100%)] z-0" />
 
                 <div className="max-w-7xl mx-auto relative z-10 w-full">
@@ -55,14 +56,13 @@ export default function Page() {
                     >
                         <BentoGrid />
                     </motion.div>
+
+                    <div className="mt-10 sm:mt-12 max-w-5xl mx-auto">
+                        <LegalDisclaimer compact />
+                    </div>
                 </div>
             </main>
 
-            <footer className="md:fixed bottom-0 left-0 right-0 py-3 sm:py-4 text-center bg-background/60 backdrop-blur-xl border-t border-border/50">
-                <p className="text-xs text-muted-foreground">
-                    © 2026 Red Flare. All rights reserved.
-                </p>
-            </footer>
         </div>
     )
 }
