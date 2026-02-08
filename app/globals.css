@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: #050505;
+  --color-foreground: #EDEDED;
+  --color-card: #0A0A0A;
+  --color-card-foreground: #EDEDED;
+  --color-popover: #0A0A0A;
+  --color-popover-foreground: #EDEDED;
+  --color-primary: #EDEDED;
+  --color-primary-foreground: #050505;
+  --color-secondary: #0A0A0A;
+  --color-secondary-foreground: #A1A1AA;
+  --color-muted: #171717;
+  --color-muted-foreground: #737373;
+  --color-accent: #171717;
+  --color-accent-foreground: #EDEDED;
+  --color-destructive: #991B1B;
+  --color-destructive-foreground: #FFFFFF;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-input: rgba(255, 255, 255, 0.08);
+  --color-ring: #2E8B57;
+
+  --color-accent-growth: #2E8B57;
+  --color-accent-decay: #DC2626;
+  --color-accent-warning: #F59E0B;
+  --color-brand-algolia: #5468FF;
+
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --font-pixel: "VT323", monospace;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+
+  .font-pixel {
+    font-family: var(--font-pixel);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted-foreground);
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
