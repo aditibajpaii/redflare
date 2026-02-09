@@ -18,6 +18,7 @@
         "@remotion/player": "^4.0.419",
         "@untitledui/icons": "^0.0.21",
         "@upstash/redis": "^1.36.2",
+        "@vercel/analytics": "^1.6.1",
         "ai": "^6.0.77",
         "algoliasearch": "^5.48.0",
         "class-variance-authority": "^0.7.1",

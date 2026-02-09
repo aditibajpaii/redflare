@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, VT323 } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import { LegalFooter } from "@/components/LegalFooter"
 import "./globals.css"
 
@@ -43,6 +44,7 @@ export default function RootLayout({
             <body className={`${geistSans.variable} ${geistMono.variable} ${pixelFont.variable} font-sans`}>
                 {children}
                 <LegalFooter />
+                <Analytics />
             </body>
         </html>
     )
